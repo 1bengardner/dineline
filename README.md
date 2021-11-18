@@ -5,9 +5,12 @@ Dineline is a mock restaurant review site where users can add their own restaura
 
 ## Getting Started
 
-1. Install and run [XAMPP control panel](https://www.apachefriends.org/download.html).
-2. Import [restaurant_review_data.sql](project/sql/restaurant_review_data.sql), which contains the database schema and sample data, into MySQL.
-3. Head over to http://localhost/page/landing to test out the site.
+1. Clone [Dineline](https://github.com/1bengardner/dineline).
+2. Install [XAMPP](https://www.apachefriends.org/download.html).
+3. Configure XAMPP to serve from Dineline's [source](project/source) directory. One way to do this is by moving the source directory contents to `C:\xampp\htdocs` with a default XAMPP installation.
+4. Start Apache and MySQL from within XAMPP control panel.
+5. Import [restaurant_review_data.sql](project/sql/restaurant_review_data.sql), which contains the database schema and sample data, into MySQL.
+6. Head over to http://localhost/page/landing to test out the site.
 
 ## Features
 
